@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #fa72be;
+  text-align: center;
+}
+body {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  background-color: palevioletred;
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.logo_span {
+  float: left;
+}
+
+.subtitle_span {
+  float: center;
+  vertical-align: middle;
+  font-family: "Dancing Script", cursive;
+}
+
+video {
+  height: 450px;
+  width: 450px;
+}
+
+.video_span {
+  height: 100px;
+  width: 100px;
+}
+
+.transicion_span {
+  float: center;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+.title_inicio div {
+  font-family: "Dancing Script", cursive;
+}
+
+/*HEADER*/
+
+p {
+  color: #fa72be;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*CONFIG IMAGENES*/
+
+.slider {
+  float: right;
+}
+
+.slider ul {
+  display: flex;
+  float: left;
+  animation: cambio 20s infinite;
+  height: 300px;
+}
+
+.slider li {
+  width: 300px;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-slider {
+  height: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 200px;
+  }
+  20% {
+    margin-left: 200px;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+}
+
+/*CONFIG MENU*/
+
+li {
+  float: left;
+  margin: 0 15px 0 0;
+  text-align: left;
+  padding: 10px;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav_container {
+  display: block;
+}
+
+li:hover {
+  background-color: #ffc3f9;
+  color: #bbb9bb;
+}
+
+/*PIE DE PAG*/
+
+.nav-footer-coment {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 15px;
+}
+
+.nav-footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}

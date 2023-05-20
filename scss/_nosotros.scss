@@ -1,0 +1,23 @@
+.container-dicta u {
+  color: aquamarine;
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .historia {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .historia {
+    font-size: 20px;
+  }
+}
+
+.historia {
+  color: #bbb9bb;
+  text-align: center;
+  margin-top: 200px;
+  display: flex;
+}

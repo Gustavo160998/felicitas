@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #fa72be;
+  text-align: center;
+}
+body {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  background-color: palevioletred;
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.logo_span {
+  float: left;
+}
+
+.subtitle_span {
+  float: center;
+  vertical-align: middle;
+  font-family: "Dancing Script", cursive;
+}
+
+video {
+  height: 450px;
+  width: 450px;
+}
+
+.video_span {
+  height: 100px;
+  width: 100px;
+}
+
+.transicion_span {
+  float: center;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+
+.title_inicio div {
+  font-family: "Dancing Script", cursive;
+}
+
+/*HEADER*/
+
+p {
+  color: #fa72be;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*CONFIG IMAGENES*/
+
+.slider {
+  float: right;
+}
+
+.slider ul {
+  display: flex;
+  float: left;
+  animation: cambio 20s infinite;
+  height: 300px;
+}
+
+.slider li {
+  width: 300px;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container-slider {
+  height: 100%;
+}
+
+@keyframes cambio {
+  0% {
+    margin-left: 200px;
+  }
+  20% {
+    margin-left: 200px;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+}
+
+img {
+  width: 240px;
+  margin: 5px;
+}
+
+.logo_span {
+  width: 240px;
+  height: 100%;
+  float: left;
+}
+
+.preguntar {
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  padding: 5px;
+}
+
+.subtitle {
+  padding-top: 80px;
+}
+
+header {
+  background-color: white;
+  height: 250px;
+  vertical-align: middle;
+}
+nav {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+/*PRODUCTOS*/
+
+.subtitulo {
+  color: #dbbbcd;
+}
+
+/*CONFIG MENU*/
+
+li {
+  float: left;
+  margin: 0 15px 0 0;
+  text-align: left;
+  padding: 10px;
+  justify-content: flex-end;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+li:hover {
+  background-color: #ffc3f9;
+  color: #bbb9bb;
+}
+
+/*PIE DE PAG*/
+
+.nav-footer-coment {
+  color: antiquewhite;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.nav-footer {
+  text-align: center;
+  width: 100%;
+}
+
+/*SUBTITULOS*/
+
+.almohadas {
+  color: #bbb9bb;
+}
+.almoperso {
+  color: #bbb9bb;
+}
+.carpas {
+  color: #bbb9bb;
+}
+.cuadros {
+  color: #bbb9bb;
+}
+.organizador {
+  color: #bbb9bb;
+}
+
+.u {
+  color: #bbb9bb;
+}
+
+/*CARDS*/
+
+.card {
+  margin: 0 0 1em;
+  padding: 1em;
+  border: 1px;
+}
+
+/*MAPA*/
+
+.mapa {
+  align-items: center;
+  width: 600px;
+  height: 450px;
+  border-style: "border: 0;" allowfullscreen;
+}
+
+@media (max-width: 740px) {
+  .topnav li {
+    flex-direction: column;
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .subtitle_span h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 700px) {
+  .subtitle_span p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .subtitle_span p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .subtitle_span p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .video_span {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+.rss {
+  float: right;
+}
+
+/*Nosotros*/
+
+@media (max-width: 700px) {
+  .historia {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  .historia {
+    font-size: 20px;
+  }
+}
+
+.historia {
+  color: #bbb9bb;
+  text-align: center;
+  margin-top: 200px;
+  display: flex;
+}
